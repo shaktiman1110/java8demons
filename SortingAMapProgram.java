@@ -28,7 +28,7 @@ public class SortingAMapProgram {
 
 		// second example
 
-		Map<String, Integer> ItemToPrice = new HashMap<>();
+		/*Map<String, Integer> ItemToPrice = new HashMap<>();
 		ItemToPrice.put("Sony Braiva", 1000);
 		ItemToPrice.put("Apple iPhone 6S", 1200);
 		ItemToPrice.put("HP Laptop", 700);
@@ -40,6 +40,6 @@ public class SortingAMapProgram {
 				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
 		mapSortedBykeyItemToPrice.forEach((k, v) -> {
 			System.out.println("key" + k + "value" + v);
-		});
+		});*/
 	}
 }
